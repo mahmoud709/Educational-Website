@@ -296,6 +296,7 @@ html::-webkit-scrollbar-thumb {
   text-align: center;
   background-color: rgba(255, 166, 0, 0.982);
   cursor: pointer;
+  z-index:5000;
 }
 #scroll_button span {
   color: #fff;
