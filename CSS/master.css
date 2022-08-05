@@ -278,6 +278,30 @@ html::-webkit-scrollbar-thumb {
     -o-transform: translateX(20px);
   }
 }
+
+
+/* scroll button  */
+
+#scroll_button {
+  position: fixed;
+  right: 16px;
+  bottom: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255, 166, 0, 0.982);
+  cursor: pointer;
+}
+#scroll_button span {
+  color: #fff;
+  font-size: 45px;
+}
+
 .banner-img {
   background-image: url(../images/banner-img-bg.png);
 }
@@ -285,7 +309,7 @@ html::-webkit-scrollbar-thumb {
 
 /* start style courses */
 
-.courses .title {
+ .title {
   text-align: center;
 }
 
